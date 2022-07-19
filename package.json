@@ -1,0 +1,46 @@
+{
+  "name": "sealevel-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "seed": "node server/seeder/index.js",
+    "lint": "eslint ./ --ext js,jsx,ts,tsx"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stripe/stripe-js": "^1.15.0",
+    "bcrypt": "^5.0.1",
+    "dayjs": "^1.10.7",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.1",
+    "js-cookie": "^2.2.1",
+    "json2csv": "^5.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "luxon": "^1.27.0",
+    "mongoose": "^5.13.9",
+    "multer": "^1.4.2",
+    "next": "^12.2.2",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.7.2",
+    "rollbar": "^2.24.0",
+    "stripe": "^8.150.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.24.0",
+    "eslint-config-standard-jsx": "^10.0.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jwt-decode": "^3.1.2",
+    "nodemon": "^2.0.7",
+    "uuid": "^8.3.2"
+  }
+}
